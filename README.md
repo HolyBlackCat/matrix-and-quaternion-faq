@@ -2334,36 +2334,3 @@ QUATERNIONS
 
   This can easily be realised and is most likely faster then the transformation<br>
   using a rotation matrix.
-
-
-
-<script language="Javascript"><br>
-<!--
-
-// FILE ARCHIVED ON 20041029003853 AND RETRIEVED FROM THE<br>
-// INTERNET ARCHIVE ON 20050827150132.<br>
-// JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.<br>
-// ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.<br>
-// SECTION 108(a)(3)).
-
-   var sWayBackCGI = "http://web.archive.org/web/20041029003853/";
-
-   function xLateUrl(aCollection, sProp) {<br>
-      var i = 0;
-      for(i = 0; i < aCollection.length; i++)
-         if (aCollection[i][sProp].indexOf("mailto:") == -1 &&
-             aCollection[i][sProp].indexOf("javascript:") == -1)
-            aCollection[i][sProp] = sWayBackCGI + aCollection[i][sProp];
-   }
-
-   if (document.links)  xLateUrl(document.links, "href");<br>
-   if (document.images) xLateUrl(document.images, "src");<br>
-   if (document.embeds) xLateUrl(document.embeds, "src");
-
-   if (document.body && document.body.background)<br>
-      document.body.background = sWayBackCGI + document.body.background;
-
-//-->
-
-</script><br>
-</html>
